@@ -21,10 +21,10 @@
   <!--Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
- <!--Barra de navegacion-->
+<!--Barra de navegacion-->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +36,23 @@
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonios</a>
+            <a class="nav-link" href="#testimonios">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>        
       </div>
     </div>
   </nav>
 
- <!--Seccion hero-->
+<!--Seccion hero-->
   <section class="hero align-items-stretch">
     <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
       <img class="hero-imagen-desarrollador" src="images/Retoque.jpg" alt="Foto de Alberto Leguiza">
@@ -64,8 +64,8 @@
     </div>
   </section>
 
- <!--Seccion sobre mi-->
-  <section class="sobre-mi seccion-oscura">
+<!--Seccion sobre mi-->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
     <div class="contenedor">
       <h2 class="seccion-titulo">Conoce a Alberto Leguiza</h2>
       <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus tempor massa bibendum vestibulum. Suspendisse egestas ligula sit amet feugiat pulvinar. Praesent et massa nec justo consectetur cursus. Cras in porta nunc, eu placerat magna. Curabitur neque mi, aliquam ut pulvinar a, convallis vel erat. Phasellus diam nisl, egestas at orci eu, iaculis elementum nulla. Sed augue nunc, vestibulum non dolor id, bibendum sagittis eros. Proin ac nulla sapien. In rutrum erat pharetra metus maximus, pretium lobortis ligula convallis. Mauris in sagittis sapien, sit amet bibendum massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet vehicula erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus pharetra consequat ipsum et condimentum.</p>
@@ -116,7 +116,7 @@
   </section>
 
 <!--Proyectos-->
-  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
     <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente...</h3>
     <!--Galeria de proyectos-->
@@ -278,7 +278,7 @@
   </section>
 
 <!--Testimonios-->
-  <section class="testimonios seccion-clara">
+  <section id="testimonios" class="testimonios seccion-clara">
     <h2 class="seccion-titulo">Testimonios</h2>
     <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
 
@@ -329,7 +329,7 @@
   </section>
   
 <!--Contacto-->
-  <section class="contacto seccion-oscura">
+  <section id="contacto" class="contacto seccion-oscura">
     <div class="container">
       <div class="container text-center rectangulo d-flex justify-content-evenly">
         <div class="row">
@@ -351,6 +351,36 @@
       </div>
     </div>
   </section>
+
+<!--Pie de pagina (footer)-->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="images/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="http://twiter.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="http://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="http://wwww.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="http://wwww.github.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="mailto:albertoleguiza@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Alberto Leguiza (2023) &#169;</div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">      
   </script>
